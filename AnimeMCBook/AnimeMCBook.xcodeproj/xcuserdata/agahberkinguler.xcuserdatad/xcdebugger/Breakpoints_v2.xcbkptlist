@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1852EC56-DA14-4ABE-993D-B9A9228ADAA7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53025F3F-85A0-47B8-A480-59C676B439EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnimeMCBook/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "DetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "53025F3F-85A0-47B8-A480-59C676B439EB - 6e7abc4680d0dadc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimeMCBook.DetailsViewController.saveButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "AnimeMCBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agahberkinguler/MyProjects/Swift101/AnimeMCBook/AnimeMCBook/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "53025F3F-85A0-47B8-A480-59C676B439EB - 8843c0472190ae0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimeMCBook.DetailsViewController.saveButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "AnimeMCBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agahberkinguler/MyProjects/Swift101/AnimeMCBook/AnimeMCBook/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "53025F3F-85A0-47B8-A480-59C676B439EB - ae71d0c41af406d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimeMCBook.DetailsViewController.saveButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "AnimeMCBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agahberkinguler/MyProjects/Swift101/AnimeMCBook/AnimeMCBook/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "53025F3F-85A0-47B8-A480-59C676B439EB - 773751c9f66a8858"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimeMCBook.DetailsViewController.saveButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AnimeMCBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agahberkinguler/MyProjects/Swift101/AnimeMCBook/AnimeMCBook/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "53025F3F-85A0-47B8-A480-59C676B439EB - 7f56b3b44a71cdaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimeMCBook.DetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AnimeMCBook.DetailsViewController"
+                  moduleName = "AnimeMCBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agahberkinguler/MyProjects/Swift101/AnimeMCBook/AnimeMCBook/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "53025F3F-85A0-47B8-A480-59C676B439EB - 7ac11cdc51625164"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnimeMCBook.DetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AnimeMCBook.DetailsViewController&gt;"
+                  moduleName = "AnimeMCBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agahberkinguler/MyProjects/Swift101/AnimeMCBook/AnimeMCBook/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
