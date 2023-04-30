@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFirstProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="eminem2" translatesAutoresizingMaskIntoConstraints="NO" id="g2f-Gx-UJ0">
+                                <rect key="frame" x="59" y="205" width="274" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="RLu-9h-ebM"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wvd-xU-ERj">
+                                <rect key="frame" x="155" y="409" width="83" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change"/>
+                                <connections>
+                                    <action selector="changeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M5w-HL-VrB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Eminem App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bV-n9-ju6">
+                                <rect key="frame" x="129" y="114" width="134" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Z3u-nU-eUP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4bV-n9-ju6" firstAttribute="centerX" secondItem="g2f-Gx-UJ0" secondAttribute="centerX" id="2kP-Ye-Tez"/>
+                            <constraint firstItem="g2f-Gx-UJ0" firstAttribute="top" secondItem="4bV-n9-ju6" secondAttribute="bottom" constant="50" id="9Gc-Q7-5pj"/>
+                            <constraint firstItem="g2f-Gx-UJ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="HW0-JD-kPg"/>
+                            <constraint firstItem="g2f-Gx-UJ0" firstAttribute="centerX" secondItem="Wvd-xU-ERj" secondAttribute="centerX" id="Qe3-hd-8My"/>
+                            <constraint firstItem="Wvd-xU-ERj" firstAttribute="top" secondItem="g2f-Gx-UJ0" secondAttribute="bottom" constant="42" id="UX9-ny-MiG"/>
+                            <constraint firstItem="4bV-n9-ju6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="UzH-XW-D9n"/>
+                            <constraint firstItem="Wvd-xU-ERj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="khX-E9-2hj"/>
+                            <constraint firstItem="4bV-n9-ju6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="pYa-6W-125"/>
+                            <constraint firstItem="4bV-n9-ju6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s9W-YU-bJH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="eminemLabel" destination="4bV-n9-ju6" id="aQV-MY-TbH"/>
+                        <outlet property="imageView" destination="g2f-Gx-UJ0" id="5fX-9B-Gzq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.95419847328243" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="eminem2" width="1200" height="675"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
